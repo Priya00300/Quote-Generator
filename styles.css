@@ -1,0 +1,85 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    text-align: center;
+    width: 600px;
+    height: 200px;
+    padding-top: 60px;
+}
+
+h1 {
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#quote-box {
+    margin-bottom: 20px;
+}
+
+#quote {
+    font-size: 18px;
+    color: black;
+    font-style: italic;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-style: italic;
+    width: 150px;
+}
+
+#show-quote {
+    background-color: blue;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+#show-quote:hover {
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    border: 2px solid blue;
+    
+}
+
+#tweet {
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    transition: background-color 0.3s ease;
+}
+
+#tweet:hover {
+    background-color: blue;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+}
+#author{
+    padding-left: 250px;
+    padding-right: 2px;
+    padding-bottom: 15px;
+}
